@@ -56,14 +56,9 @@ export default function AppCard() {
                     {
                         count === item.id && (<div className="content" style={{ color: 'black', marginTop: '1.5rem' }}>{item.description}</div>)
                     }
-
                 </div>))}
             </div>
-
-
         </main>
-
-
     )
 
 }
